@@ -15,15 +15,17 @@ body {
     color: white;
 }
 
-/* Imagem RETANGULAR - SIMPLES */
 .hero-image {
-    width: 300px;
-    height: 150px;
-    border-radius: 10px;
+    height: 180px; 
+    width: auto; 
+    max-width: 100%; 
+    object-fit: contain; 
     margin-bottom: 2rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    border: 3px solid rgba(255,255,255,0.1);
-    object-fit: cover;
+    
+    background-color: #ffffff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
 }
 
 h1 {
