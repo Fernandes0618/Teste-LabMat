@@ -76,6 +76,21 @@ h1 {
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
+.botao-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #0056b3;
+}
+
 @media (max-width: 768px) {
     .hero-image {
         width: 500px;
