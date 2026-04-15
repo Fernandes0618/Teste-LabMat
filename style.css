@@ -84,9 +84,9 @@ h1 {
 }
 
 .btn-tertiary:hover {
-    background: #218838;
+    background: #218838; 
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4); 
 }
 
 .botao-voltar {
