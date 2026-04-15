@@ -78,6 +78,17 @@ h1 {
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
+.btn-tertiary {
+    background: #28a745;
+    color: white;
+}
+
+.btn-tertiary:hover {
+    background: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
 .botao-voltar {
     display: inline-block;
     padding: 10px 20px;
@@ -94,10 +105,6 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .hero-image {
-        width: 500px;
-        height: 250px;
-    }
     
     h1 {
         font-size: 2rem;
